@@ -12,7 +12,6 @@
 
 	-- "HR" related section
 	-- uses 2 tables
-	-- Complex queries
 
 
 	--0. join + preview the data relevant to personnel
@@ -92,7 +91,6 @@ from clist;
 
 	-- Ship Construction Page
 	-- uses 1 table
-	-- Very simple queries
 
 	-- 0. preview columns
 select top 3 * from vessel;
@@ -129,7 +127,6 @@ order by systems_tests desc;
 
 --	-- financial page
 --	-- 3 tables
---	-- Slightly advanced queries
 
 
 	-- preview 3 tables joined, noted duplicate columns
@@ -209,7 +206,7 @@ with cte_funds as (
 
 
 
-	--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------
